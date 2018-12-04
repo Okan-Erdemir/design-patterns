@@ -10,7 +10,7 @@ namespace Command
     {
         static void Main(string[] args)
         {
-            // yapılan işlemleri hafızaya alma
+            // yapılan işlemleri hafızaya alma ve toplu şekilde db ye aktarma
             StockManager stockManager = new StockManager();
             BuyStock buyStock = new BuyStock(stockManager);
             SellStock sellStock = new SellStock(stockManager);
